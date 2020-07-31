@@ -1,4 +1,4 @@
-import React, { useState, useEffect, isLargeRow } from "react";
+import React, { useState, useEffect} from "react";
 import axios from "./axios";
 import "./Row.css";
 import Youtube from "react-youtube";
@@ -16,7 +16,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
       return request;
     }
     fetchData();
-  }, [fetchUrl]);
+  },[fetchUrl] );
 
   const opts = {
     height: "390",
