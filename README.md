@@ -1,9 +1,3 @@
-Live link-https://netflix-clone-c9b64.web.app/
-
-In this project TMDB Api was used to fetch the everything about a respective show and the front-end revolves around the data being fetched and is similar to  netflix.
-React js was mainly used in this project along with firebase for deployment.
-
-
 
 
 
